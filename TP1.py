@@ -1,4 +1,6 @@
 def word_count():
-    print("type the sentence")
+    print("Ecris la phrase")
     chain = input()
-    print(f"il y a {len(chain)} caracteres")
+    print(f"il y a {len(chain.split())} mots")
+
+word_count()
